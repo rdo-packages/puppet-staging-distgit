@@ -1,5 +1,5 @@
-# UUID          Group Name
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
-b39c1da944fb66e4f22d5398d85f12a56d21b572       	puppet-staging-distgit-core
-f8773d9c6b059fb81c7e616e545d3a29b9e8aca6        	puppet-staging-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+b39c1da944fb66e4f22d5398d85f12a56d21b572	puppet-staging-distgit-core
+f8773d9c6b059fb81c7e616e545d3a29b9e8aca6	puppet/puppet-staging-distgit-ptl
+global:Registered-Users                 	Registered Users
