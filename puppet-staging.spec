@@ -1,3 +1,11 @@
+%{!?upstream_version: %global upstream_version %{commit}}
+%define upstream_name puppet-staging
+%global commit b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
+
 Name:           puppet-staging
 Version:        XXX
 Release:        XXX
@@ -6,7 +14,7 @@ License:        Apache-2.0
 
 URL:            https://github.com/nanliu/puppet-staging
 
-Source0:        https://github.com/nanliu/puppet-staging/archive/%{version}.tar.gz
+Source0:        https://github.com/nanliu/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
@@ -16,7 +24,7 @@ Requires:       puppet >= 2.7.0
 Compressed file staging and deployment
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
