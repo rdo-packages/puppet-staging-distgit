@@ -7,7 +7,7 @@
 
 
 Name:           puppet-staging
-Version:        1.0.4
+Version:        0.4.1
 Release:        1%{?alphatag}%{?dist}
 Summary:        Compressed file staging and deployment
 License:        Apache-2.0
@@ -48,6 +48,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/staging/
 
 
 %changelog
+* Tue Nov 15 2016 Alfredo Moralejo <amoralej@redhat.com> 0.4.1-1.b466d93.git
+- Newton update 0.4.1 (b466d93f8deb0ed4d9762a17c3c38f356aa833ee)
+
 * Wed Sep 21 2016 Haikel Guemar <hguemar@fedoraproject.org> - 1.0.4-1.b466d93.git
 - Newton update 1.0.4 (b466d93f8deb0ed4d9762a17c3c38f356aa833ee)
 
