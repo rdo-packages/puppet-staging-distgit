@@ -10,7 +10,7 @@ Name:           puppet-staging
 Version:        XXX
 Release:        XXX
 Summary:        Compressed file staging and deployment
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/nanliu/puppet-staging
 
