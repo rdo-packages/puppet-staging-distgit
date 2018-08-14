@@ -7,8 +7,8 @@
 
 
 Name:           puppet-staging
-Version:        XXX
-Release:        XXX
+Version:        
+Release:        1%{?alphatag}%{?dist}
 Summary:        Compressed file staging and deployment
 License:        ASL 2.0
 
