@@ -7,8 +7,8 @@
 
 
 Name:           puppet-staging
-Version:        XXX
-Release:        XXX
+Version:        1.0.4
+Release:        1%{?alphatag}%{?dist}
 Summary:        Compressed file staging and deployment
 License:        ASL 2.0
 
@@ -48,5 +48,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/staging/
 
 
 %changelog
+* Fri Mar 25 2022 RDO <dev@lists.rdoproject.org> 1.0.4-1.b466d93git
+- Update to post 1.0.4 (b466d93f8deb0ed4d9762a17c3c38f356aa833ee)
+
 
 
